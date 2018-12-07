@@ -1,7 +1,7 @@
-litecoin-seeder
+brynercoin-seeder
 ===============
 
-Litecoin-seeder is a crawler for the Litecoin network, which exposes a list
+BrynerCoin-seeder is a crawler for the BrynerCoin network, which exposes a list
 of reliable nodes via a built-in DNS server.
 
 Features:
