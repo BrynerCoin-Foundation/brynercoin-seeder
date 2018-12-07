@@ -11,6 +11,11 @@ RUN make -j3
 
 EXPOSE 53/udp
 
-CMD ["/brynercoin-seeder/dnsseed",  \
-     "-h", "dnsseed.bryner.tech",   \
-     "-n", "bryseed.bryner.tech"]
+# -m specifies dnsseed@bryner.tech
+
+CMD [ \
+    "/brynercoin-seeder/dnsseed",  \
+    "-h", "dnsseed.bryner.tech",   \
+    "-n", "bryseed.bryner.tech",   \
+    "-m", "dnsseed.bryner.tech"    \
+]
