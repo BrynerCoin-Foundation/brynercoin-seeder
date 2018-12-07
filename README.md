@@ -1,6 +1,8 @@
 brynercoin-seeder
 ===============
 
+[![Docker Build Status](https://img.shields.io/docker/build/ralphorama/brynercoin-dnsseed.svg)](https://hub.docker.com/r/ralphorama/brynercoin-dnsseed/builds/)
+
 BrynerCoin-seeder is a crawler for the BrynerCoin network, which exposes a list
 of reliable nodes via a built-in DNS server.
 
